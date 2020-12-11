@@ -1,0 +1,29 @@
+/* Définition des polices personnalisées */
+
+@font-face 
+{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    src: url(polices/Raleway/Raleway-VariableFont_wght.ttf) format(truetype),
+         url(polices/Raleway/Raleway-Italic-VariableFont_wght.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Eléments principaux de la page */
+
+body
+{
+
+}
+
+
+
+
+/* Header */
+
+header
+{
+   display: flex;
+   align-items: flex-end;
+}
