@@ -16,9 +16,10 @@ body
 {
 
 }
-
-
-
+nav ul
+{
+    list-style-type: none;
+}
 
 /* Header */
 
@@ -26,4 +27,21 @@ header
 {
    display: flex;
    align-items: flex-end;
+   justify-content: flex-end;
 }
+
+#logo
+{
+    align-items: flex-start
+}
+
+header nav ul
+{
+    display: flex;
+}
+
+header nav li
+{
+    margin-right: 35px;
+}
+
