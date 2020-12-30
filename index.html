@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
     <title>Reservia</title>
 </head>
+
 <body>
 
     <header>
-        <div id="logo">
+        <div class="logo">
             <img src="images/logo/Reservia.svg" alt="image logo">
         </div>
         <nav>
@@ -21,52 +23,66 @@
         </nav>
     </header> 
 
-    <section id="banniere">
-        <h2>Trouver votre hébergement pour des vacances de rêve</h2>
+    <section class="banniere">
+
+        <h1>Trouver votre hébergement pour des vacances de rêve</h1>
         <p>
             En plein centre ville ou en pleine nature
         </p>
         <input type="search" id="recherche" name="q" aria-label="Rechercher sur le site" placeholder="Marseille, France">
+
         <button>
-            <img src="images/favicons/map-marker-alt-solid.svg" alt="image map">
+            <i class="fas fa-map-marker-alt"></i>
             Rechercher
         </button>
+
         <div>
-            <div>Filtres</div>
-            <div>
-                <button name="economique" type="button">
-                    <img src="images/favicons/money-bill-wave-solid.svg" alt="image billet">
-                    Economique
-                </button>
+            
+            <div class="filtres">
+
+                <div class="choix" id="rien">Filtres</div>
+
+                <div class="choix">
+                    <div name="economique" type="button">
+                        <i class="fas fa-money-bill-wave"></i>
+                        Economique  
+                    </div>
+                </div>
+
+                <div class="choix">
+                    <div name="familial" type="button">
+                        <i class="fas fa-child"></i>
+                        Familial  
+                    </div>
+                </div>
+
+                <div class="choix"> 
+                    <div name="romantique" type="button">
+                        <i class="fas fa-heart"></i>
+                        Romantique  
+                    </div>
+                </div>
+
+                <div class="choix">
+                    <div name="animaux" type="button">
+                        <i class="fas fa-dog"></i>
+                        Animaux autorisés  
+                    </div>
+                </div>
             </div>
-            <div>
-                <button name="familial" type="button">
-                    <img src="images/favicons/child-solid.svg" alt="image child">
-                    Familial
-                </button>
-            </div>
-            <div>
-                <button name="romantique" type="button">
-                    <img src="images/favicons/heart-solid.svg" alt="image heart">
-                    Romantique
-                </button>
-            </div>
-            <div>
-                <button name="animaux" type="button">
-                    <img src="images/favicons/dog-solid.svg" alt="image dog">
-                    Animaux autorisés
-                </button>
-            </div>
+            
             <p>
-                <img src="images/favicons/info-circle-solid.svg" alt="image info">
+                <i class="fas fa-info-circle"></i>
                 Plus de 500 logements sont disponibles dans cette ville
             </p>
+
         </div>
+
     </section>
 
-    <section id="part 2">
+    <section id="hebergement">
         
-        <div id="conteneur 1">
+        <div class="conteneur1">
             <h2>Hébergements à Marseille</h2>
             <figure>
                 <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière">
@@ -91,7 +107,7 @@
             <figure>
                 <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Hôtel le Panier">
                 <figcaption>Hôtel Le Panier </figcaption>
-                >Nuit à partir de <em>23€</em>
+                Nuit à partir de <em>23€</em>
             </figure>
             <figure>
                 <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
@@ -101,10 +117,10 @@
             <p>Afficher plus</p>
         </div>
 
-        <div id="conteneur 2">
+        <div class="conteneur2">
             <h2>
                 Les plus populaires 
-                <img src="images/favicons/chart-line-solid.svg" alt="image chart">
+                <i class="fas fa-chart-line"></i>
             </h2>
             <figure>
                 <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin">
@@ -126,9 +142,9 @@
 
     </section>
 
-    <section id="part3"> 
+    <section id="activites"> 
 
-        <div id="conteneur 3">
+        <div class="conteneur 3">
             <h2> Activités à marseille</h2>
             <div class="b1">
                 <figure>

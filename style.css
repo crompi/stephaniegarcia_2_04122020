@@ -14,11 +14,22 @@
 
 body
 {
-
+    text-align: justify;
+    text-size-adjust: ;
 }
 nav ul
 {
     list-style-type: none;
+}
+
+h1
+{
+    text-size-adjust: 62px;
+}
+
+h2
+{
+    text-size-adjust: 62px;
 }
 
 /* Header */
@@ -27,13 +38,9 @@ header
 {
    display: flex;
    align-items: flex-end;
-   justify-content: flex-end;
+   justify-content:space-between;
 }
 
-#logo
-{
-    align-items: flex-start
-}
 
 header nav ul
 {
@@ -45,3 +52,88 @@ header nav li
     margin-right: 35px;
 }
 
+
+/*Bannière Recherche*/
+
+.banniere .filtres
+{
+    display: flex;
+    justify-content:space-between ;
+    justify-content: flex-start;
+}
+
+.filtres .choix
+{
+    border: 3px #F2F2F2 solid;
+    border-radius: 20px;
+    margin: 5px;
+  
+}
+
+.filtres #rien
+{
+    border: white;
+}
+
+.filtres i
+{
+    border: 3px  #DEEBFF solid;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 5px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.banniere p i
+{
+    border: 3px #F2F2F2 solid;
+    border-radius: 20px;
+    color:white;
+    background-color:#0065FC;
+}
+
+
+/* Partie hébergement*/
+
+#hebergement
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteneur1
+{
+    background-color: #F2F2F2;
+    width: 67%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    overflow: auto;
+}
+
+.conteneur2
+{
+    background-color: #F2F2F2;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    overflow: auto;
+}
+
+/* Partie Activités */
+
+
+/* Footer */
+
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+}
